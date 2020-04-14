@@ -1,0 +1,222 @@
+body {
+	background-color: black;
+}
+
+#judul {
+	text-shadow: 2px 30px 3px grey;
+	font-family: impact,arial black;
+	font-size: 50px;
+	position: relative;
+	text-align: center;
+}
+
+
+/*Navbar*/
+#Navbar .brand-logo {
+	font-family: Bradley Hand ITC,arial;
+	font-size: 30px;
+}
+
+#Navbar li a {
+	font-family: Forte,arial;
+	font-size: 20px;
+}
+
+#Navbar li a:hover {
+	color: black;
+	background-color: lightgreen;
+}
+
+
+/*Navbar mobile*/
+.sidenav li a {
+	font-family: Forte,arial;
+	font-size: 20px;
+}
+
+.sidenav li a:hover {
+	color: black;
+	background-color: lightgreen;
+}
+
+
+/*Home*/
+section #home {
+	padding: 50px 0 ;
+}
+
+section,footer {
+	padding: 10px 0;
+
+}
+
+#Home .row h5,h4 {
+	font-family: Elephant,Arial black;
+	color: white;
+	width: 58%;
+	min-height: 50px;
+	right: 10px;
+
+
+}
+
+#Home .row h2 {
+	color: lightgreen;
+	font-family: Berlin Sans FB,calibri;
+}
+
+.photo {
+	min-height: 500px;
+	width: 60%;
+	margin-top: -200px;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 1px;
+	
+	
+}
+
+#home .row {
+	padding: 25px 0;
+
+}
+
+
+/*Profile*/
+
+#judulprofile {
+	text-shadow: 2px 30px 3px grey;
+	font-family: impact,arial black;
+	font-size: 50px;
+	text-align: center;
+	position: relative;
+	right: 150px;
+
+}
+
+.photoprofile {
+	position: relative;
+	text-align: center;
+	left: 60px;
+}
+
+#profile img {
+	width: 300px;
+	height: 300px;
+	margin-top: 150px;
+	border-radius: 10px;
+}
+
+#profile table {
+	color: lightgreen;
+	font-size: 20px;
+}
+
+#profile p .nama {
+	color: lightgreen;
+}
+
+.biodata {
+	font-family: candara,calibri;
+}
+
+.biodata1 {
+	color: white;
+}
+
+
+/*Skill*/
+#skill img {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	left: 30px;
+}
+.skill {
+	position: relative;
+	left: 30px;
+}
+.progress {
+	position: relative;
+	width: 300px;
+	left: 30px;
+}
+
+/*Portfolio*/
+#portfolio img {
+	width: 300px;
+	height:300px;
+	position: relative;
+	left: 30px;
+}
+#portfolio .row p {
+	position: relative;
+	left: 30px;
+}
+
+
+/*Business*/
+.bisnis {
+	color: lightgreen;
+	text-align: center;
+}
+
+#ket {
+	margin-top: 80px;
+	font-size: 25px;
+	font-family: arialblack;
+	text-align: center;
+	width: 95%;
+	position: relative;
+	left: 8px;
+}
+
+.parallax-container {
+	height: 20% !important;
+	width: 110% !important;
+}
+
+.parallax img {
+	opacity: 0.5 !important;
+	width: 300px;
+}
+
+.business img {
+	max-width: 150px;
+	filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+.business a:hover {
+	filter: grayscale(1);
+}
+
+
+/*Contact*/
+#contact .row p {
+	color: white;
+}
+
+#contact .row p a {
+	text-decoration: none;
+	color: white;
+}
+
+#contact .row p a:hover {
+	color: lightgreen;
+}
+
+
+/*Form*/
+#contact .container h5 {
+	color: black;
+}
+
+#contact .row img {
+	width: 400px;
+	height: 460px;
+	border-radius: 20px;
+}
+.photoform {
+	position: relative;
+	right: 28px;
+}
